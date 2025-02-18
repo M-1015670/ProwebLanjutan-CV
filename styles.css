@@ -1,13 +1,38 @@
 body {
     background: rgb(0,200,0);
-    background: linear-gradient(90deg, rgba(0,200,0,1) 45%, rgba(130,65,0,1) 50%, rgba(200,0,200,1) 55%);
+    background: linear-gradient(90deg, rgba(0,200,0,1) 48%, rgba(200,0,200,1) 52%);
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+.ijo {
+    float: left; 
+    margin-left: 20px; 
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.pinki {
+    float: right; 
+    margin-right: 20px; 
+    animation: fadeInRight;
+    animation-duration: 2s;
+}
+
+.spasing {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .perkenalan {
-    font-size: 36pt;
+    font-size: 30pt;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
