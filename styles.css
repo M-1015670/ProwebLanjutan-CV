@@ -1,4 +1,13 @@
 body {
     background: rgb(0,200,0);
     background: linear-gradient(90deg, rgba(0,200,0,1) 45%, rgba(130,65,0,1) 50%, rgba(200,0,200,1) 55%);
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
+.perkenalan {
+    font-size: 36pt;
+}
+
