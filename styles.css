@@ -22,6 +22,30 @@ body {
     animation-duration: 2s;
 }
 
+.pinki .card-body,
+.pinki-center .card-body {
+    text-align: right;
+}
+
+.pinki .btn-primary,
+.pinki-center .btn-primary {
+    float: right;
+}
+
+.ijo-center {
+    float: left;
+    margin-left: 10px;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.pinki-center {
+    float: right;
+    margin-right: 10px;
+    animation: fadeInRight;
+    animation-duration: 2s;
+}
+
 .spasing {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -36,3 +60,16 @@ body {
     font-weight: 700;
 }
 
+.jejak-kursor {
+    position: absolute;
+    pointer-events: none; 
+    font-family: monospace; 
+    font-size: 30px;
+    font-style: oblique; 
+    color: #00FF00; 
+    transition: opacity 0.3s; 
+}
+
+.jejak-kursor.magenta {
+    color: #FF00FF; 
+}
